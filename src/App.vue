@@ -2,7 +2,9 @@
   <div id="app">
     <TopoSite />
     <main id="main">
+      <transition mode="out-in">
       <router-view />
+      </transition>
     </main>
     <RodapeSite />
   </div>
@@ -85,7 +87,12 @@ img {
   flex: 1;
 }
 
-input, textarea {
+label {
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
   border-radius: 4px;
   border: 1px solid white;
   padding: 15px;
@@ -103,6 +110,25 @@ textarea:focus {
   outline: none;
   box-shadow: 0 6px 12px rgba (30, 60, 90, 0.2);
   border-color: #87f;
+}
+
+.v-enter,
+.v-leave-to{
+  opacity: 0;
+}
+
+.v-enter{
+  transform: translate3d(0, -20px, 0);
+}
+
+.v-leave-to{
+  transform: translate3d(0, 20px, 0);
+}
+
+
+.v-enter-active,
+.v-leave-active{
+  transition: all .3s;
 }
 
 </style>

@@ -4,12 +4,11 @@
             "id": "daniel.trugilo@icloud.com",
             "email": "daniel.trugilo@icloud.com",
             "nome": "Daniel",
-            "apelido": "Dan",
-            "sobrenome": "Azevedo",
             "senha": "123",
             "rua": "Rua Teste",
             "cep": "381092389",
             "numero": "1030",
+            "bairro": "Atiradores",
             "estado": "SC",
             "cidade": "Joinville"
         }
