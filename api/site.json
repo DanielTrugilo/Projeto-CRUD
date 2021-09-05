@@ -50,6 +50,96 @@
             "vendido": "false",
             "descricao": "Celular XPTO",
             "fotos": null
+        },
+        {
+            "id": "moto",
+            "nome": "Moto",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "7500",
+            "vendido": "false",
+            "descricao": "Moto XPTO",
+            "fotos": null
+        },
+        {
+            "id": "tv",
+            "nome": "TV",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "3000",
+            "vendido": "false",
+            "descricao": "TV XPTO",
+            "fotos": null
+        },
+        {
+            "id": "barco",
+            "nome": "Barco",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "355000",
+            "vendido": "false",
+            "descricao": "Barco XPTO",
+            "fotos": null
+        },
+        {
+            "id": "aspirador",
+            "nome": "Aspirador de pó",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "1000",
+            "vendido": "false",
+            "descricao": "Aspirador de Pó XPTO",
+            "fotos": null
+        },
+        {
+            "id": "mouse",
+            "nome": "Mouse",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "500",
+            "vendido": "false",
+            "descricao": "Mouse XPTO",
+            "fotos": null
+        },
+        {
+            "id": "teclado",
+            "nome": "Teclado",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "500",
+            "vendido": "false",
+            "descricao": "Teclado XPTO",
+            "fotos": null
+        },
+        {
+            "id": "playstation5",
+            "nome": "Playstation 5",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "4500",
+            "vendido": "false",
+            "descricao": "Playstation 5",
+            "fotos": null
+        },
+        {
+            "id": "tenis",
+            "nome": "Tenis",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "300",
+            "vendido": "false",
+            "descricao": "Tenis XPTO",
+            "fotos": null
+        },
+        {
+            "id": "mochila",
+            "nome": "Mochila",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "400",
+            "vendido": "false",
+            "descricao": "Mochila XPTO",
+            "fotos": null
+        },
+        {
+            "id": "carteira",
+            "nome": "Carteira",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "100",
+            "vendido": "false",
+            "descricao": "Carteira XPTO",
+            "fotos": null
         }
     ]
 }

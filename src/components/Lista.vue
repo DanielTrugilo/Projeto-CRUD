@@ -8,22 +8,35 @@
           <p>{{produto.descricao}}</p>
         </router-link>
       </div>
+      <listaPaginada :produtosTotal="produtosTotal" 
+      :produtosPorPagina="produtosPorPagina"/>
     </div>
     <div v-else-if="produtos && produtos.length === 0">
       <p class="sem-resultados">Busca sem resultados. Tente buscar outro termo.</p>
+    </div>
+    <div v-else>
+      <PaginaCarregando/>
     </div>
   </section>
 </template>
 
 <script>
+import listaPaginada from "@/components/ListaPaginada.vue"
 import { api } from "@/services.js"
 import { serialize } from "@/helpers.js"
 
+
 export default {
+  name: "ListaDeProdutos",
+  components:{
+    listaPaginada
+  },
+
   data() {
     return {
       produtos: null,
-      produtosPorPagina: 9
+      produtosPorPagina: 9,
+      produtosTotal: 0
     };
   },
 
@@ -36,9 +49,13 @@ export default {
   
   methods: {
     getProdutos() {
-      api.get(this.url).then((retorno) => {
+      this.produtos = null;
+      setTimeout(() =>{
+        api.get(this.url).then((retorno) => {
+          this.produtosTotal = Number(retorno.headers["x-total-count"]);
           this.produtos = retorno.data;
         });
+      }, 1500);
     },
   },
 
