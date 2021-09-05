@@ -1,0 +1,55 @@
+{
+    "usuario": [
+        {
+            "id": "daniel.trugilo@icloud.com",
+            "email": "daniel.trugilo@icloud.com",
+            "nome": "Daniel",
+            "apelido": "Dan",
+            "sobrenome": "Azevedo",
+            "senha": "123",
+            "rua": "Rua Teste",
+            "cep": "381092389",
+            "numero": "1030",
+            "estado": "SC",
+            "cidade": "Joinville"
+        }
+    ],
+    "produto": [
+        {
+            "id": "notebook",
+            "nome": "Notebook",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "5000",
+            "vendido": "false",
+            "descricao": "Notebook XPTO",
+            "fotos": null
+        },
+        {
+            "id": "carro",
+            "nome": "Carro",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "15000",
+            "vendido": "false",
+            "descricao": "Carro XPTO",
+            "fotos": null
+        },
+        {
+            "id": "apartamento",
+            "nome": "Apartamento",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "255000",
+            "vendido": "false",
+            "descricao": "Apartamento XPTO",
+            "fotos": null
+        },
+        {
+            "id": "celular",
+            "nome": "Celular",
+            "usuário_id": "daniel.trugilo@icloud.com",
+            "preco": "5000",
+            "vendido": "false",
+            "descricao": "Celular XPTO",
+            "fotos": null
+        }
+    ]
+}
