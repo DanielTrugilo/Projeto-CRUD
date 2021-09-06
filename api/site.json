@@ -1,4 +1,27 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "daniel.trugilo@icloud.com",
+      "produto": {
+        "id": "carro",
+        "nome": "Carro",
+        "usuário_id": "daniel.trugilo@icloud.com",
+        "preco": "15000",
+        "vendido": "false",
+        "descricao": "Carro XPTO",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "89203060",
+        "rua": "Rua Desembargador Nelson Nunes Guimarães",
+        "numero": "1030",
+        "bairro": "Atiradores",
+        "cidade": "Joinville",
+        "estado": "SC"
+      },
+      "id": 1
+    }
+  ],
   "usuario": [
     {
       "id": "daniel.trugilo@icloud.com",
