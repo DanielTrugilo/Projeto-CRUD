@@ -1,5 +1,3 @@
-# site
-
 ## Setup do projeto
 
 ### Instalações necessárias
@@ -34,7 +32,7 @@ json-server --watch site.json
 Agora é possível acessar o servidor json pela web, o endereço padrão é http://localhost:3000
 #### Atenção
 
-Caso esteja em ambiente Windows, o ultimo comando pode ter apresentado algum erro alegando que o arquivo não está assinado. Para resolver o problema, é necessário abrir um powershell em modo administrador e executar o seguinte comando:
+Caso esteja em ambiente Windows, o último comando pode ter apresentado algum erro alegando que o arquivo não está assinado. Para resolver o problema, é necessário abrir um powershell em modo administrador e executar o seguinte comando:
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 ```
