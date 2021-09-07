@@ -58,6 +58,18 @@
       "bairro": "Atiradores",
       "estado": "SC",
       "cidade": "Joinville"
+    },
+    {
+      "id": "lari2@testando.com",
+      "email": "lari2@testando.com",
+      "nome": "Larissa Martins",
+      "senha": "123",
+      "rua": "Rua João Bertoli",
+      "cep": "89232310",
+      "numero": "12312312",
+      "bairro": "Boehmerwald",
+      "estado": "SC",
+      "cidade": "Joinville"
     }
   ],
   "produto": [
@@ -86,15 +98,6 @@
       "preco": "255000",
       "vendido": "false",
       "descricao": "Apartamento XPTO",
-      "fotos": null
-    },
-    {
-      "id": "celular",
-      "nome": "Celular",
-      "usuário_id": "daniel.trugilo@icloud.com",
-      "preco": "5000",
-      "vendido": "false",
-      "descricao": "Celular XPTO",
       "fotos": null
     },
     {
